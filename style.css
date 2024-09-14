@@ -1,15 +1,17 @@
 *{
     margin: 0;              /*diminui o tamanho da margem*/
      /* border-radius: 10%;   arredonda a borda */
+
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    
+    padding-top: 0px;
 }
 .barraSuperior {
     background-color: rgb(0,80,43); /* Cor de fundo da barra superior */
-    padding: 1px 0; /* Espaçamento interno vertical e horizontal */
+    padding: 10px 0; /* Espaçamento interno vertical e horizontal */
     text-align: center; /* Centraliza o conteúdo dentro da barra */
 }
 .barraSuperior ul {
