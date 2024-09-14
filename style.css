@@ -1,0 +1,92 @@
+*{
+    margin: 0;              /*diminui o tamanho da margem*/
+     /* border-radius: 10%;   arredonda a borda */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.barraSuperior {
+    background-color: rgb(0,80,43); /* Cor de fundo da barra superior */
+    padding: 1px 0; /* Espaçamento interno vertical e horizontal */
+    text-align: center; /* Centraliza o conteúdo dentro da barra */
+}
+.barraSuperior ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+}
+.barraSuperior a{
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+.barraSuperior a:hover {
+    text-decoration: underline; /* Sublinha o link quando o mouse passa por cima */
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 160px;
+}
+.horarios-culto {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    padding: 5%;
+}
+.horarios-culto > div {
+    
+    width: 50%; /* Ajuste conforme necessário */
+    margin: 0px;
+}
+.nome-horarios{
+    padding: 2%;
+}
+.image-container {
+    position: relative;
+    width: 50%; /* Ajuste conforme necessário */
+}
+
+.image-container img {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.image-container .text {
+    
+    position: absolute;
+    top: 50%; /* Centralizando verticalmente */
+    left: 50%; /* Centralizando horizontalmente */
+    transform: translate(-50%, -50%); /* Ajustando para que o texto fique no centro */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    font-size: 24px; /* Tamanho do texto */
+    font-weight: bold; /* Negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhor visibilidade */
+}
+ul li a:hover {
+color: rgb(214, 11, 197);
+}
+.noticias ul{
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    list-style-type: none;
+    grid-template-columns: repeat(3,10fr);
+    display: grid;
+}
+.noticias ul li a img{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 350px;
+    height: 350px;
+}
+.noticias ul li a img:hover{
+    filter: hue-rotate(180deg);
+}
