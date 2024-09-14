@@ -11,7 +11,7 @@ body{
 }
 .barraSuperior {
     background-color: rgb(0,80,43); /* Cor de fundo da barra superior */
-    padding: 10px 0; /* Espaçamento interno vertical e horizontal */
+    padding: opx 0; /* Espaçamento interno vertical e horizontal */
     text-align: center; /* Centraliza o conteúdo dentro da barra */
 }
 .barraSuperior ul {
@@ -24,6 +24,7 @@ body{
     color: white; /* Cor do texto dos links */
     text-decoration: none; /* Remove o sublinhado dos links */
     font-weight: bold; /* Deixa o texto em negrito */
+    size: 20px;
 }
 .barraSuperior a:hover {
     text-decoration: underline; /* Sublinha o link quando o mouse passa por cima */
@@ -49,29 +50,6 @@ ul{
 .nome-horarios{
     padding: 2%;
 }
-.image-container {
-    position: relative;
-    width: 50%; /* Ajuste conforme necessário */
-}
-
-.image-container img {
-    width: 30%;
-    height: auto;
-    text-align: center;
-    
-}
-
-.image-container .text {
-    
-    position: absolute;
-    top: 50%; /* Centralizando verticalmente */
-    left: 50%; /* Centralizando horizontalmente */
-    transform: translate(-50%, -50%); /* Ajustando para que o texto fique no centro */
-    color: rgb(255, 255, 255); /* Cor do texto */
-    font-size: 24px; /* Tamanho do texto */
-    font-weight: bold; /* Negrito */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhor visibilidade */
-}
 ul li a:hover {
 color: rgb(214, 11, 197);
 }
@@ -91,4 +69,9 @@ color: rgb(214, 11, 197);
 }
 .noticias ul li a img:hover{
     filter: hue-rotate(180deg);
+}
+.textt p{
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
