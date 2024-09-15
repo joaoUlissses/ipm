@@ -1,7 +1,5 @@
 *{
     margin: 0;              /*diminui o tamanho da margem*/
-     /* border-radius: 10%;   arredonda a borda */
-
 }
 
 body{
@@ -33,7 +31,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 160px;
+    padding: 70px;
 }
 .horarios-culto {
     display: flex;
@@ -70,8 +68,35 @@ color: rgb(214, 11, 197);
 .noticias ul li a img:hover{
     filter: hue-rotate(180deg);
 }
-.textt p{
+.imagem-modelo{
+    display: flex; /* Alinha imagem e texto lado a lado */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.modelo h1{
+    text-align: left;
+    margin-left: 2%;
+}
+.modelo p{
+    text-align: left;
     margin-bottom: 25px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+.modelo-2 h2{
+    text-align: left;
+    margin-left: 10%;
+}
+.modelo-2 p{
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.autor p{
+    text-align: right;
 }
