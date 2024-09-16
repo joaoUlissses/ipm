@@ -76,31 +76,19 @@ color: rgb(214, 11, 197);
 .noticias ul li a img:hover{
     filter: hue-rotate(180deg);
 }
-.text-modelo{
+.modelo-2{
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgb(240, 248, 255); 
+    background-color: rgb(240, 248, 255, 0.7); 
     padding: 4%;
 }
-.modelo-com-imagem{
-    display: flex; /* Alinha imagem e texto lado a lado */
-    align-items: center; /* Alinha o conteúdo verticalmente no centro */
-    justify-content: flex-start; /* Alinha os itens à esquerda */
-    text-align: left;
-    margin-top: 2%;
-}
-.modelo h1{
-    text-align: left;
-    margin-left: 2%;
-}
-.modelo p{
-    text-align: left;
-    margin-bottom: 25px;
-    margin-left: 2%;
-    margin-right: 10%;
-}
+
 .modelo-2 h2{
     text-align: left;
+}
+.modelo-2 img {
+    padding-top: 2%;
+    padding-bottom: 4%;
 }
 .modelo-2 p{
     text-align: left;
