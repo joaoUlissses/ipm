@@ -6,19 +6,15 @@
     <title>Perseverando Nas Doutrinas Da Reforma</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body-noticia">
-    <header class="barraSuperior">
-        <ul>
-            <li><a href="sobre.html">sobre</a></li>
-            <li><a href="eventos.html">eventos</a></li>
-            <li><a href="IPM.html"><img src="imagens/ipbSimbolo.png" alt="Simbolo IPB" style="width:50px; height: auto;" href="IPM.html"></a> </li>
-            <li><a href="https://www.instagram.com/ip.centralmacapa/" target="_blank">instagram</a> </li>
-            <li><a href="https://maps.app.goo.gl/wV6fvNo7aafn7V2E8" target="_blank">endereço</a></li>
-        </ul>
+<body class="body__noticia">
+    <header>
+        <div id="texto"></div>
+    <script src="scripts.js"></script>
+    <script>window.onload = function() {chamarBarraS();};</script>
     </header>
-        <div class="modelo-2">
-            <h1>Perseverando Nas Doutrinas Da Reforma</h1> <img src="imagens/lutero.png" alt="Imagem Reforma" class="imagem-reforma" width="400">
-            <p>
+        <main class="modelo">
+            <h1 class="modelo__titulo">Perseverando Nas Doutrinas Da Reforma</h1> <img src="imagens/lutero.png" alt="Imagem Reforma" class="imagem-reforma" width="400">
+            <p class="modelo__paragrafo">
                 <strong>A Igreja Presbiteriana</strong> tem sua origem na Reforma 
                 Protestante que eclodiu na Europa no século XVI. Deus levantou alguns 
                 homens para conduzir o seu povo às Sagradas Escrituras, dentre 
@@ -32,7 +28,7 @@
                 espalhou para os Países Baixos, França, Escócia e Inglaterra.
                 E, a seguir, atingiu a todos os Continentes.
             </p>
-            <p>
+            <p class="modelo__paragrafo">
                 <strong>As doutrinas da IPM</strong> estão baseadas na Bíblia, a Palavra de Deus.
                 Nossa Igreja não aceita nenhuma doutrina que não tenha base sólida nas Escrituras (Gl 1.8,9).
                 Nossa Igreja adota como exposição das doutrinas bíblicas, a 
@@ -42,7 +38,7 @@
                 como exposição do sistema de doutrina ensinada nas Santas Escrituras.
             </p>
                 <h2>A Confissao De Fé e os Catecismos</h2>
-                <p>
+                <p class="modelo__paragrafo">
                     <strong>A Confissão de Fé e os Catecismos</strong> foram elaborados por cerca de 151 teólogos
                     ingleses e escoceses, reunidos na Abadia de Westminster, em Londres, na Inglaterra, de julho
                     de 1643 a fevereiro de 1649. O sistema doutrinário apresentado pela Confissão de Fé ficou 
@@ -51,7 +47,7 @@
                     Os reformadores empregaram cinco termos latinos para resumir o que criam. Nós os subscrevemos.
                 </p>
                 <h2>Sola Scriptura (Somente a Escritura)</h2>
-                <p>A Bíblia (Antigo e Novo Testamentos) é a única 
+                <p class="modelo__paragrafo">A Bíblia (Antigo e Novo Testamentos) é a única 
                     autoridade pela qual todas as questões doutrinárias e eclesiásticas devem ser decididas.
                     Embora tenha sido escrita por homens, foi inspirada por Deus (2Tm 3.16; 2Pe 1.21), 
                     daí sua inerrância, autoridade, clareza e suficiência. A Bíblia sozinha ensina tudo 
@@ -59,7 +55,7 @@
                     comportamento cristão deve ser avaliado.
                 </p>
                 <h2>Solus Christus (Somente Cristo)</h2>
-                <p>Não há nenhum outro mediador pelo qual o homem seja reconciliado com Deus, a não ser 
+                <p class="modelo__paragrafo">Não há nenhum outro mediador pelo qual o homem seja reconciliado com Deus, a não ser 
                     Cristo, a segunda pessoa da Trindade (1Tm 2.5), o Cordeiro de Deus que tira o pecado 
                     do mundo (Jo 1.29). Cremos que sua morte expiatória na cruz expia (paga e elimina) a 
                     culpa de todos aqueles que Nele crêem (Rm 3.24-25), redimindo-os do pecado (Ef 1.7); 
@@ -69,7 +65,7 @@
                     dado entre os homens pelo qual importa que sejamos salvos” (At 4.12).
                 </p>
                 <h2>Sola Gratia (Somente a Graça)</h2>
-                <p>
+                <p class="modelo__paragrafo">
                     Nenhum homem pode reinvidicar de Deus a salvação com base em suas obras. A Salvação 
                     é realizada somente pela graça (favor imerecido) de Deus (Rm 3.20,24, 28). A queda 
                     trouxe conseqüências desastrosas para o ser humano. Eles tornaram-se inteiramente 
@@ -79,7 +75,7 @@
                     estará para sempre perdido. Portanto, salvação é o dom da graça soberana de Deus.
                 </p>
                 <h2>Sola Fide (Somente a Fé)</h2>
-                <p>
+                <p class="modelo__paragrafo">
                     O único instrumento de justificação (ato pelo qual Deus perdoa os pecados dos eleitos 
                     e os considera e os aceita como justos) é a fé, que se firma em Cristo e em Sua justiça 
                     (Rm 3.28; 5.1). Entendemos por fé “não um sentimento vago e infundado, mas o dom do 
@@ -89,7 +85,7 @@
                     pela graça de Deus”.
                 </p>
                 <h2>Soli Deo Glória (Somente a Deus Glória)</h2>
-                <p>
+                <p class="modelo__paragrafo">
                     O domínio de Deus é total. Ele é soberano. Ele decide à medida que escolhe e executa 
                     tudo aquilo que decide, e ninguém pode parar Sua mão ou impedir Seus planos (Dn 4.35). 
                     Cremos que a salvação depende de Deus e é realizada por Ele, portanto, devemos 
@@ -99,8 +95,9 @@
                     (Rm 11.36).
                 </p>
                 <footer class="autor">
-                    <p>Pr. Luís Guilherme M. Alves </p>
+                    <p>Pr. Luís Guilherme M. Alves</p>
                 </footer>
-        </div> 
+        </main> 
+        
 </body>
 </html>

@@ -6,22 +6,17 @@
     <title>TITULO DO TEXTO E DA NOTICIA</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body-noticia">
-    <header class="barraSuperior">
-        <ul>
-            <li><a href="sobre.html">sobre</a></li>
-            <li><a href="eventos.html">eventos</a></li>
-            <li><a href="IPM.html"><img src="imagens/ipbSimbolo.png" alt="Simbolo IPB" style="width:50px; height: auto;" href="IPM.html"></a> </li>
-            <li><a href="https://www.instagram.com/ip.centralmacapa/" target="_blank">instagram</a> </li>
-            <li><a href="https://maps.app.goo.gl/wV6fvNo7aafn7V2E8" target="_blank">endereço</a></li>
-        </ul>
+<body class="body__noticia">
+
+    <header>
+        <div id="texto"></div>
+    <script src="scripts.js"></script>
+    <script>window.onload = function() {chamarBarraS();};</script>
     </header>
-        <div class="modelo-2">
-            <h1>
-                TITULO DO TEXTO E DA NOTICIA
-            </h1> 
+        <main class="modelo">
+            <h1 class="modelo__titulo">TITULO DO TEXTO E DA NOTICIA</h1> 
             <img src="imagens/ipbSimbolo.png" alt="Imagem-da-noticiaticia" class="imagem-reforma" width="400">
-            <p>
+            <p class="modelo__paragrafo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
                  dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio finibus in. 
                  Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu. Curabitur porta, 
@@ -35,23 +30,8 @@
                  Proin ullamcorper nunc metus, quis laoreet mauris vehicula vitae. Proin in auctor ligula, 
                  rhoncus laoreet tellus.
             </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
-                 dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio 
-                 finibus in. Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu. 
-                 Curabitur porta, urna ut lacinia laoreet, ex ante molestie odio, a scelerisque felis 
-                 nulla at ante. Donec eget eros eu turpis egestas vestibulum nec sit amet est. 
-                 Nam rhoncus condimentum efficitur. Mauris non justo vitae quam 
-                 ullamcorper suscipit eu vel arcu. Nullam auctor, magna eget euismod vehicula, 
-                 dui leo hendrerit justo, nec pellentesque sem massa non velit. Nam suscipit, 
-                 arcu vel semper elementum, lectus orci faucibus nisl, sed imperdiet ante augue lobortis ante. 
-                 Ut volutpat lectus quis arcu ullamcorper, sed consequat turpis tristique. Aenean sed auctor sem. 
-                 Donec ut nisi porttitor, tempus neque in, vulputate orci. Pellentesque auctor molestie ipsum, 
-                 et luctus turpis congue non. Proin ullamcorper nunc metus, quis laoreet mauris vehicula vitae. 
-                 Proin in auctor ligula, rhoncus laoreet tellus.
-            </p>
                 <h2>subtitulo</h2>
-                <p>
+                <p class="modelo__paragrafo">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
                      dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio 
                      finibus in. Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu. 
@@ -67,92 +47,9 @@
                      nunc metus, quis laoreet mauris vehicula vitae. Proin in auctor ligula, rhoncus 
                      laoreet tellus.                    
                 </p>
-                <h2>subtitulo</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
-                     dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio 
-                     finibus in. Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu.
-                      Curabitur porta, urna ut lacinia laoreet, ex ante molestie odio, a scelerisque 
-                      felis nulla at ante. Donec eget eros eu turpis egestas vestibulum nec sit amet 
-                      est. Nam rhoncus condimentum efficitur. Mauris non justo vitae quam ullamcorper
-                       suscipit eu vel arcu. Nullam auctor, magna eget euismod vehicula, dui leo hendrerit 
-                       justo, nec pellentesque sem massa non velit. Nam suscipit, arcu vel semper elementum, 
-                       lectus orci faucibus nisl, sed imperdiet ante augue lobortis ante. Ut volutpat lectus 
-                       quis arcu ullamcorper, sed consequat turpis tristique. Aenean sed auctor sem. 
-                       Donec ut nisi porttitor, tempus neque in, vulputate orci. Pellentesque auctor 
-                       molestie ipsum, et luctus turpis congue non. Proin ullamcorper nunc metus, 
-                       quis laoreet mauris vehicula vitae. Proin in auctor ligula, rhoncus laoreet 
-                       tellus.
-                </p>
-                <h2>subtitulo</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
-                     dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio 
-                     finibus in. Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu. 
-                     Curabitur porta, urna ut lacinia laoreet, ex ante molestie odio, a scelerisque 
-                     felis nulla at ante. Donec eget eros eu turpis egestas vestibulum nec sit amet est. 
-                     Nam rhoncus condimentum efficitur. Mauris non justo vitae quam ullamcorper suscipit 
-                     eu vel arcu. Nullam auctor, magna eget euismod vehicula, dui leo hendrerit justo, nec 
-                     pellentesque sem massa non velit. Nam suscipit, arcu vel semper elementum, 
-                     lectus orci faucibus nisl, sed imperdiet ante augue lobortis ante. Ut volutpat 
-                     lectus quis arcu ullamcorper, sed consequat turpis tristique. Aenean sed 
-                     auctor sem. Donec ut nisi porttitor, tempus neque in, vulputate orci. Pellentesque 
-                     auctor molestie ipsum, et luctus turpis congue non. Proin ullamcorper nunc metus, 
-                     quis laoreet mauris vehicula vitae. Proin in auctor ligula, 
-                     rhoncus laoreet tellus.
-                </p>
-                <h2>subtitulo</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
-                     dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio 
-                     finibus in. Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu.
-                     Curabitur porta, urna ut lacinia laoreet, ex ante molestie odio, a scelerisque felis
-                      nulla at ante. Donec eget eros eu turpis egestas vestibulum nec sit amet est. 
-                      Nam rhoncus condimentum efficitur. Mauris non justo vitae quam ullamcorper suscipit
-                       eu vel arcu. Nullam auctor, magna eget euismod vehicula, dui leo hendrerit justo, 
-                       nec pellentesque sem massa non velit. Nam suscipit, arcu vel semper elementum, 
-                       lectus orci faucibus nisl, sed imperdiet ante augue lobortis ante. Ut volutpat 
-                       lectus quis arcu ullamcorper, sed consequat turpis tristique. Aenean sed auctor 
-                       sem. Donec ut nisi porttitor, tempus neque in, vulputate orci. Pellentesque 
-                       auctor molestie ipsum, et luctus turpis congue non. Proin ullamcorper nunc metus, 
-                       quis laoreet mauris vehicula vitae. Proin in auctor ligula, rhoncus laoreet tellus.
-                </p>
-                <h2>subtitulo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
-                     dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio 
-                     finibus in. Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu. 
-                     Curabitur porta, urna ut lacinia laoreet, ex ante molestie odio, a scelerisque felis
-                      nulla at ante. Donec eget eros eu turpis egestas vestibulum nec sit amet est. 
-                      Nam rhoncus condimentum efficitur. Mauris non justo vitae quam ullamcorper suscipit
-                       eu vel arcu. Nullam auctor, magna eget euismod vehicula, dui leo hendrerit 
-                       justo, nec pellentesque sem massa non velit. Nam suscipit, arcu vel semper 
-                       elementum, lectus orci faucibus nisl, sed imperdiet ante augue lobortis ante. 
-                       Ut volutpat lectus quis arcu ullamcorper, sed consequat turpis tristique. 
-                       Aenean sed auctor sem. Donec ut nisi porttitor, tempus neque in, vulputate orci. 
-                       Pellentesque auctor molestie ipsum, et luctus turpis congue non. Proin ullamcorper
-                        nunc metus, quis laoreet mauris vehicula vitae. Proin in auctor ligula, rhoncus 
-                        laoreet tellus.
-                </p>
-                <h2>subtitulo</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu diam aliquet
-                     dui varius aliquet nec suscipit augue. Sed hendrerit elit mauris, non iaculis odio 
-                     finibus in. Integer dolor turpis, gravida non finibus vitae, ullamcorper at arcu. 
-                     Curabitur porta, urna ut lacinia laoreet, ex ante molestie odio, a scelerisque 
-                     felis nulla at ante. Donec eget eros eu turpis egestas vestibulum nec sit amet 
-                     est. Nam rhoncus condimentum efficitur. Mauris non justo vitae quam ullamcorper
-                      suscipit eu vel arcu. Nullam auctor, magna eget euismod vehicula, dui leo 
-                      hendrerit justo, nec pellentesque sem massa non velit. Nam suscipit, arcu vel 
-                      semper elementum, lectus orci faucibus nisl, sed imperdiet ante augue lobortis 
-                      ante. Ut volutpat lectus quis arcu ullamcorper, sed consequat turpis tristique.
-                       Aenean sed auctor sem. Donec ut nisi porttitor, tempus neque in, vulputate 
-                       orci. Pellentesque auctor molestie ipsum, et luctus turpis congue non. Proin
-                        ullamcorper nunc metus, quis laoreet mauris vehicula vitae. Proin in auctor
-                     ligula, rhoncus laoreet tellus.
-                </p>
-                <footer class="autor">
                     <p>NomeDo autor</p>
                 </footer>
-            </div> 
+            </main> 
+
     </body>
 </html>

@@ -7,29 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="barraSuperior">
-        <ul>
-            <li><a href="sobre.html">sobre</a></li>
-            <li><a href="eventos.html">eventos</a></li>
-            <li><a href="IPM.html"><img src="imagens/ipbSimbolo.png" alt="Simbolo IPB" style="width:50px; height: auto;" href="IPM.html"></a> </li>
-            <li><a href="https://www.instagram.com/ip.centralmacapa/" target="_blank">instagram</a> </li>
-            <li><a href="https://maps.app.goo.gl/wV6fvNo7aafn7V2E8" target="_blank">endereço</a></li>
-        </ul>
-</header>
-    <div class="credoApostolico ">
-        <h1>
+    <header>
+        <div id="texto"></div>
+    <script src="scripts.js"></script>
+    <script>window.onload = function() {chamarBarraS();};</script>
+    </header>
+    <main class="credo">
+        <h1 class="credo__titulo">
             credo apostolico
         </h1>
-        <p >Creio em Deus Pai, Todo-poderoso, Criador do Céu e da terra.</p>
-        <p>Creio em Jesus Cristo, seu único Filho, nosso Senhor, o qual foi concebido por obra do Espírito Santo; nasceu da virgem Maria;</p>
-        <p>padeceu sob o poder de Pôncio Pilatos, foi crucificado, morto e sepultado; ressurgiu dos mortos ao terceiro dia; subiu ao Céu;</p>    
-        <p>Está sentado à direita de Deus Pai Todo-poderoso, donde há de vir para julgar os vivos e os mortos.</p>
-        <p>Creio no Espírito Santo; na Santa Igreja Universal; na comunhão dos santos;</p>
-        <p> na remissão dos pecados;na ressurreição do corpo; na vida eterna.</p>
+        <p class="credo__paragrafo">
+            Creio em Deus Pai, Todo-poderoso, Criador do Céu e da terra. Creio 
+            em Jesus Cristo, seu único Filho, nosso Senhor, o qual foi concebido 
+            por obra do Espírito Santo; nasceu da virgem Maria;padeceu sob o poder 
+            de Pôncio Pilatos, foi crucificado, morto e sepultado; ressurgiu dos 
+            mortos ao terceiro dia; subiu ao Céu; Está sentado à direita de Deus 
+            Pai Todo-poderoso, donde há de vir para julgar os vivos e os mortos.
+            Creio no Espírito Santo; na Santa Igreja Universal; na comunhão dos santos; 
+            na remissão dos pecados;na ressurreição do corpo; na vida eterna.
         <p> Amém.</p>
-    </div>
-        <h1 class="nome-horarios">Horarios de Culto</h1>
-    <div class="horarios-culto">
+    
+        <h1 class="titulo__horarios">Horarios de Culto</h1>
+    <div class="horarios__culto">
         <div>
             <h2>Terça</h2>
             <h3>Culto de oraçao</h3>
@@ -55,5 +54,6 @@
             <p>17:00 - 19:00</p>
         </div>  
     </div>
+    </main>
 </body>
 </html>

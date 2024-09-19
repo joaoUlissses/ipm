@@ -7,50 +7,50 @@ body{
     text-align: center;
     padding-top: 0px;
 }
-.barraSuperior {
+.barra__superior {
     background-color: rgb(0,80,43); /* Cor de fundo da barra superior */
     padding: opx 0; /* Espaçamento interno vertical e horizontal */
     text-align: center; /* Centraliza o conteúdo dentro da barra */
 }
-.barraSuperior ul {
+.barra__superior__ordenado {
     list-style-type: none; /* Remove os marcadores das listas */
     margin-left: 10%;
     margin-right: 10%;
-    padding: 0;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
-.barraSuperior a{
+.barra__superior__ordenado__ancora a{
     color: white; /* Cor do texto dos links */
     text-decoration: none; /* Remove o sublinhado dos links */
     font-weight: bold; /* Deixa o texto em negrito */
     size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
 }
-.barraSuperior a:hover {
+.barra__superior__ordenado__ancora a:hover {
     text-decoration: underline; /* Sublinha o link quando o mouse passa por cima */
+    color: rgb(214, 11, 197);
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 70px;
+.simbolo__ipb{
+    padding-bottom: -30px;
 }
-.horarios-culto {
+.titulo__horarios{
+    padding: 2%;
+}.horarios__culto {
     display: flex;
     margin-left: 15%;
     margin-right: 15%;
     justify-content: space-between;
     padding: 5%;
-}
-.horarios-culto > div {
-    
-    width: 50%; /* Ajuste conforme necessário */
+}.horarios__culto div {
+    width: 50%;
     margin: 0px;
-}
-.nome-horarios{
-    padding: 2%;
-}
-ul li a:hover {
-color: rgb(214, 11, 197);
-}.body-noticia{
+}.body__noticia{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 0px;
@@ -58,42 +58,47 @@ color: rgb(214, 11, 197);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-}
-.noticias ul{
+}.titulo__blog{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}.noticias__listadas{
     margin-left: 15%;
     margin-right: 15%;
     align-items: center;
     list-style-type: none;
     grid-template-columns: repeat(3,10fr);
     display: grid;
-}
-.noticias ul li a img{
+}.noticias__listadas__ancora img{
     margin-left: 15px;
     margin-bottom: 15px;
     width: 350px;
     height: 350px;
-}
-.noticias ul li a img:hover{
+}.noticias__listadas__ancora img:hover{
     filter: hue-rotate(180deg);
 }
-.modelo-2{
+.modelo{
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(240, 248, 255, 0.7); 
     padding: 4%;
-}
-
-.modelo-2 h2{
-    text-align: left;
-}
-.modelo-2 img {
+}.modelo__titulo{
+    text-align: ecenter;
+}.modelo img {
     padding-top: 2%;
     padding-bottom: 4%;
-}
-.modelo-2 p{
+}.modelo__paragrafo{
     text-align: left;
     margin-bottom: 25px;
-}
-.autor p{
+}.autor {
     text-align: right;
+}.credo__titulo{
+    text-align: center;
+    margin-top: 3%;
+
+}
+.credo__paragrafo{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
 }
